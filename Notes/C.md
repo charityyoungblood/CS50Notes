@@ -16,3 +16,11 @@ int main(void)
 
 4. main - function, the "main" part of your program
 
+5. Loops
+  - While: while (true)
+  - For: for (int i = 0; i < 50; i++) > for Integer variable i > set to/initialize at 0 > as long as i is less than 50    > increment by 1 > UNTIL i is NOT less than 50
+
+6. Conditions/Conditional Statements
+  - if 
+  - else if
+  - else
