@@ -24,3 +24,15 @@ int main(void)
   - if 
   - else if
   - else
+
+7. Creating your programs 
+  - By convention, any program you write in C, will end in file type ".c"
+  - When running your program, you can do more in your terminal 
+  - In order to run your program, you have to run your source code through the compiler, in order to get machine code (binary) 
+  - Think of a "compiler" as a translator - it converts instructions (source code) written in a programming language to machine code 
+  
+8. Clang 
+  - compiler for the C language, as well as C++, Objective-C, Objective-C++
+  - While in your terminal, to compile the source code file, enter clang + file name to compile your program
+    Ex: workspace $ clang hello.c
+  
