@@ -33,6 +33,52 @@ int main(void)
   
 8. Clang 
   - compiler for the C language, as well as C++, Objective-C, Objective-C++
-  - While in your terminal, to compile the source code file, enter clang + file name to compile your program
+  - While in your terminal, to compile the source code file, enter clang filename.c to compile your program
     Ex: workspace $ clang hello.c
+  - Once Clang compiles the source code > the a.out file is created which holds the machine code 
+  - To output a custom file name from the clang compiler, enter clang -o newFileName oldFileName.c
   
+9. Steps to run your program (in your terminal)
+  - enter clang filename.c
+  - ./filename-created.out (Ex: ./a.out)
+  
+10. C syntax 
+
+   #include <stdio.h>
+   
+    int main(void) {
+      string s = get_string("Name: ");
+      printf("hello, %s\n", s);
+    }
+              
+  - The above lines are read as: create a variable called "s" with type "string", set that variable to the function "get_string", with an argument of "Name: ". Print to the console the string "hello, with the placeholder for a string (%s) and in that placeholder place the value of variable s" 
+  - In C, you have to specify the data type in the function or variable declaration 
+  - 
+  
+11. CS50 IDE - use terminal command <make filename> will compile for you (filename WITHOUT the .c extension)
+  *** REMEMBER to #include <cs50.h> *** this will include the cs50 library 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
